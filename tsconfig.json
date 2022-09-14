@@ -16,7 +16,8 @@
     "esModuleInterop": true,
     // allowSyntheticDefaultImports если библиотека не имеет default imports
     // позволяет использовать "привычные импорты"
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "."
   },
   "ts-node": {
     // Для ts-node, что бы использовать import default

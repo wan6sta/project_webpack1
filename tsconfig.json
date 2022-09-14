@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // Для всех переменных необходимо указывать тип
+    "noImplicitAny": true,
+    // Способы модульной сброки
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react",
+    // Для реакта (позволяет TS компилировать JS)
+    "allowJs": true,
+    // В 99% случаях используем node
+    "moduleResolution": "node",
+    // esModuleInterop позволяет использовать "привычные импорты"
+    // import path from 'path'
+    "esModuleInterop": true,
+    // allowSyntheticDefaultImports если библиотека не имеет default imports
+    // позволяет использовать "привычные импорты"
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    // Для ts-node, что бы использовать import default
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

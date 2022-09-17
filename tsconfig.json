@@ -6,7 +6,7 @@
     // Способы модульной сброки
     "module": "ESNext",
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     // Для реакта (позволяет TS компилировать JS)
     "allowJs": true,
     // В 99% случаях используем node
